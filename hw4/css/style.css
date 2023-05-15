@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yeseva+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #FFFAF3;
+}
+
+header.container{
+	overflow: auto;
+	display: inline-block;
+}
+
+
+
+.container{
+	max-width: 870px;
+	margin: auto;
+}
+
+	
+.logo{
+	float: left;
+	padding-top: 43px;
+}
+
+header ul{
+	border-bottom: 2px solid #C08D5D;
+	list-style: none;
+	height: 142px;
+}
+
+nav li{
+	display: inline-block;
+	padding-top: 63px;
+	padding-left: 50px;
+
+}
+
+nav{
+	max-width: 470px;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 27px;
+	
+}
+
+.home-text{
+	color: #C08D5D;
+}
+
+
+body{
+	background-image: url(../images/fon.png);
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+}
+
+
+h1 span{
+	
+	display: block;
+	font-family: 'Yeseva One';
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 58px;
+	letter-spacing: 0.06em;
+	color: #3F4042;
+}
+
+span{
+	width: 195px;
+}
+
+h1{
+	padding-top: 105px;
+	color: #3F4042;
+	font-family: 'Yeseva One';
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 45px;
+	letter-spacing: 0.06em;
+	display: block;
+}
+span::after{
+	content: url(../images/Logo.svg);
+	width: 45.21px;
+	height: 69.04px;
+	display: inline-block;
+}
+
+h1::after{
+	content: url(../images/vector.svg);
+	display: block;
+	width: 165px;
+	padding-bottom: 25px;
+}
+
+main ul{
+	margin-bottom: 71px;
+}
+
+ul li.content{
+	width: 525px;
+	list-style: disc;
+	color: #3F4042;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 147.6%;
+	letter-spacing: 0.06em;
+}
+
+.move-to{
+	display: inline-block;
+	padding-left: 11px;
+	margin-bottom: 86px;
+	border: 2px solid #C08D5D;
+	text-decoration: none;
+	color: #3F4042;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 64px;
+	letter-spacing: 0.06em;
+	
+}
+
+.move-to::after{
+	content: url(../images/one.svg);
+	display: inline-block;
+	margin-left: 11px;
+	background-color: #C08D5D;
+	width: 59px;
+	height: 64px;
+	line-height: 64px;
+	text-align: center;
+}
+
+a.mouse{
+	display: block;
+	padding-left: 535px;
+}
