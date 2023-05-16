@@ -10,12 +10,6 @@ body{
 	background-color: #FFFAF3;
 }
 
-header.container{
-	overflow: auto;
-	display: inline-block;
-}
-
-
 
 .container{
 	max-width: 870px;
@@ -24,28 +18,29 @@ header.container{
 
 	
 .logo{
-	float: left;
-	padding-top: 43px;
-}
-
-header ul{
-	border-bottom: 2px solid #C08D5D;
-	list-style: none;
-	height: 142px;
-}
-
-nav li{
 	display: inline-block;
-	padding-top: 63px;
-	padding-left: 50px;
-
+	vertical-align: middle;
+	width: 38.64px;
+	height: 59px;
+	margin: 43px 83.36px 42px 0;
+	
 }
 
-nav{
-	max-width: 470px;
+.navigation{
+	display: inline-block;
+	
+}
+
+header li{
+	display: inline;
+}
+
+nav a:active{
+	color: #C08D5D;
 }
 
 nav a{
+	padding-right: 52px;
 	text-decoration: none;
 	color: black;
 	font-family: 'Open Sans';
@@ -55,9 +50,11 @@ nav a{
 	
 }
 
-.home-text{
-	color: #C08D5D;
+.header{
+	display: inline-block;
+	border-bottom: 2px solid #C08D5D;
 }
+
 
 
 body{
@@ -110,9 +107,9 @@ main ul{
 	margin-bottom: 71px;
 }
 
-ul li.content{
+p.content{
+	padding-bottom: 72.03px;
 	width: 525px;
-	list-style: disc;
 	color: #3F4042;
 	font-family: 'Open Sans';
 	font-weight: 400;
@@ -147,7 +144,6 @@ ul li.content{
 	text-align: center;
 }
 
-a.mouse{
-	display: block;
-	padding-left: 535px;
+.mouse{
+	text-align: center;
 }
